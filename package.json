@@ -1,0 +1,23 @@
+{
+  "name": "asyncawaitexample",
+  "version": "1.0.0",
+  "description": "An illustrative example for the async await pattern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stbenz88/AsyncAwaitExample.git"
+  },
+  "author": "stbenz88",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stbenz88/AsyncAwaitExample/issues"
+  },
+  "homepage": "https://github.com/stbenz88/AsyncAwaitExample#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
