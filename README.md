@@ -5,7 +5,7 @@ This repository provides three different approaches for solving one particular t
 
 # Preparation
 
-In order to run the code, make sure to have nodeJS 7.6 (https://nodejs.org/en/) or higher and Yarn (https://yarnpkg.com/lang/en/docs/install/) installed.
+In order to run the code, make sure to have `nodeJS 7.6` (https://nodejs.org/en/) or higher and `Yarn` (https://yarnpkg.com/lang/en/docs/install/) installed.
 
 # Start
 
