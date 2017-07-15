@@ -7,6 +7,7 @@ userAges.set('Daniela', 50)
     .set('Andrea', 26)
     .set('Adrian', 33)
     .set('Nadine', 23)
+    .set('Oliver', 36)
     .set('Roy', 30);
 
 const app = express();
@@ -21,7 +22,7 @@ app.get('/users/:user/age', (request, response) => {
     const {user} = request.params;
     const userAge = userAges.get(user);
 
-    response.send({age: userAge});
+    response.send({userAge});
 })
 
 app.listen(3000);
