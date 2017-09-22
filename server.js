@@ -21,7 +21,7 @@ app.get('/users', (request, response) => {
 
 app.get('/users/:user/age', (request, response) => {
     //Destructuring assignment - http://es6-features.org/#ObjectMatchingShorthandNotation
-    const {user} = request.params;
+    const {user} = request.params; 
     const userAge = userAges.get(user);
 
     response.send({userAge});

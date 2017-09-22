@@ -1,6 +1,7 @@
 const request = require('request-promise');
 
-request.get({ url: 'http://localhost:3000/users', json: true})
+//Promises - http://es6-features.org/#PromiseUsage
+request.get({url: 'http://localhost:3000/users', json: true})
     .then(response => {
         const [firstUser] = response;
 
