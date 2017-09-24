@@ -12,3 +12,5 @@ const request = require('request-promise');
 
     console.log('>>> Age of first user is: ' + userAge + ' <<<');
 })();
+
+console.log('ASYNC AWAIT IS NON BLOCKING');

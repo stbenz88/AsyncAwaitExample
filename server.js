@@ -12,7 +12,7 @@ userAges.set('Daniela', 50)
     .set('Roy', 30);
 
 app.get('/users', (request, response) => {
-    //New Map datastructure - https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+    //New Array from - https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array/from
     const users = Array.from(userAges.keys());
 
     response.send(users);
